@@ -36,6 +36,22 @@ xaringanExtra::use_search(show_icon = TRUE)
 
 ```
 
+class: inverse, center, middle 
+
+## RESPEITE O PROTOCOLO DE BIOSSEGURANÇA
+
+
+```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para expressar que o objetivo é sério e o tema é da série the office', out.width = '50%'}
+
+
+
+knitr::include_graphics('https://media.giphy.com/media/6R2mLi910HL4VXFwOG/giphy.gif')
+
+
+```
+
+---
+
 
 ## TÓPICOS ABORDADOS
 
@@ -75,9 +91,9 @@ name: sobre_professor
 
 - **Nome:** Victor Valerio;
 
-- **Email:** [**victor.dmv@unifei.edu.br**](victor.dmv@unifei.edu.br);
+- **Email:** [victor.dmv@unifei.edu.br](victor.dmv@unifei.edu.br);
 
-- **Grupo wpp:** [**clique aqui para ingressar**](https://chat.whatsapp.com/K0ikt0cd8v8ATr28IQAYTk).
+- **Grupo wpp:** [_clique aqui para ingressar_](https://chat.whatsapp.com/K0ikt0cd8v8ATr28IQAYTk).
 
 
 ## FORMAÇÃO
@@ -97,8 +113,10 @@ name: sobre_professor
 ## ÁREAS DE ATUAÇÃO
 
 
-- **DOCÊNCIA**: Economia (ECN001), Engenharia Econômica (EPR502), 	Macroeconomia (ADM03F), 
-Matemática Financeira (ADM020), Análise 	de 	Investimento com Risco (ADM013);
+- **DOCÊNCIA**: Economia (ECN001), Engenharia Econômica (EPR502), 	
+Macroeconomia (ADM022), Matemática Financeira (ADM020), 
+Análise 	de 	Investimento com Risco (ADM013), 
+Metodologia Quantitativa em 	Administração (MPA033);
 
 
 </br>
@@ -112,8 +130,35 @@ de Energia 	Renovável, Ciência de Dados;
 </br>
 
 
-- **EXTENSÃO**: Coleta Seletiva na Cidade de Itajubá; Projetos de 	Energia 	Fotovoltaica para as 
-Universidades Públicas.
+- **INSTITUCIONAL**: Representante do Estado de Minas Gerais na Ordem dos Economistas do 
+Brasil (OEB); Coordenador do Núcleo de Excelência em 	Sistemas Fotovoltaicos 
+(NE-SFV); Pesquisador Assistente no Centro de 	Hidrogênio Verde (CHV2); 
+Coordenador de Graduação em 	Administração na UNIFEI.
+
+---
+class: center, middle 
+
+```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para agradecer pela atenção e o tema é da série the office', out.width = '80%'}
+
+
+
+knitr::include_graphics('filomena.png')
+
+
+```
+
+
+---
+class: center, middle
+
+```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para agradecer pela atenção e o tema é da série the office', out.width = '80%'}
+
+
+
+knitr::include_graphics('palmeiras.png')
+
+
+```
 
 
 ---
@@ -122,6 +167,16 @@ name: objetivo_disciplina
 
 
 ## QUAL O OBJETIVO DA DISCIPLINA?
+
+
+```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para expressar que o objetivo é sério e o tema é da série the office', out.width = '50%'}
+
+
+
+knitr::include_graphics('https://media.giphy.com/media/BpGWitbFZflfSUYuZ9/giphy.gif')
+
+
+```
 
 
 ---
@@ -135,23 +190,14 @@ name: objetivo_disciplina
 
 
 - O objetivo geral da disciplina de Macroeconomia consiste em introduzir as principais **formulações 
-teóricas** necessárias ao entendimendo do **funcionamento da economia de um país** ressaltando, sempre 
-que possível, as **associações práticas** possíveis para o nível de aprofundamento alcançado.
+teóricas** necessárias ao entendimendo do **funcionamento da economia de um país**.
 
 
----
-class: center, middle
+</br>
 
 
-```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para expressar que o objetivo é sério e o tema é da série the office', out.width = '50%'}
-
-
-
-knitr::include_graphics('https://media.giphy.com/media/BY8ORoRpnJDXeBNwxg/giphy.gif')
-
-
-```
-
+- **Objetivo específico:** Sempre que possível, as **associações práticas** possíveis 
+para o nível de aprofundamento alcançado serão discutidas.
 
 ---
 class: inverse, center, middle
@@ -161,29 +207,14 @@ name: organizacao_aulas
 ## COMO AS AULAS SERÃO ORGANIZADAS?
 
 
----
-<div style="text-align: justify">
+```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para expressar que o objetivo é sério e o tema é da série the office', out.width = '50%'}
 
 
-## COMO AS AULAS SERÃO ORGANIZADAS?
+
+knitr::include_graphics('https://media.giphy.com/media/o8LYOPJKPsYhmNgiuD/giphy.gif')
 
 
-- **As aulas serão estritamente expositivas a partir de reuniões no google meet (às quartas-feiras no horário da nossa aula)**;
-
-
-</br>
-
-
-- Todas elas serão gravadas para posterior envio aos estudantes com dificuldade de acesso à internet;
-
-
-</br>
-
-
-- Não é o ideal pois existem formatos mais dinâmicos de aula, em que de atividades são conduzidas pelos 
-estudantes, então, responsáveis pela própria formação. Este conceito de “sala de aula invertida” tem
-o potencial de aumentar o desenvolvimento de competências relacionadas a disciplina. Mas durante o 
-RTE este formato não é democrático!
+```
 
 
 ---
@@ -193,14 +224,30 @@ RTE este formato não é democrático!
 ## COMO AS AULAS SERÃO ORGANIZADAS?
 
 
-- Os vídeos gravados em cada reunião serão inseridos nos capítulos da apostila da disciplina, em seus 
-respectivos tópicos, de acordo com os conteúdos referentes a cada semana do cronograma da disciplina;
+- As aulas serão **estritamente expositivas** e **presenciais**, uma vez que, o 
+número de estudantes matriculados é inferior à capacidade máxima exigida pelo 
+protocolo de biossegurança da UNIFEI;
 
 
 </br>
 
 
-- Além dos vídeos, a apostila também conterá as seguintes informações:
+- Assim, a dinâmica ocorrerá da seguinte maneira:
+
+    - 10 minutos iniciais: Momento para tirar dúvidas e também para aguardar a acomodação dos estudantes;
+
+    - Realização da “chamada”;
+
+    - Início das exposições teóricas (início da aula).
+
+---
+<div style="text-align: justify">
+
+
+## COMO AS AULAS SERÃO ORGANIZADAS?
+
+
+- Em cada semana de aula será disponibilizado no SIGAA:
 
   - **Objetivo da aula**;
 
@@ -212,9 +259,9 @@ respectivos tópicos, de acordo com os conteúdos referentes a cada semana do cr
 </br>
 
 
-- **Reuniões pré-agendadas no google meet para tirar possíveis dúvidas sobre os conteúdos, ou sobre o 
-cronograma, ou para que a gente possa conversar assuntos gerais também (estas reuniões ocorrerão aos 
-sábados)**.
+- Inicialmente, os horários de sábado serão utilizados para realização de 
+atividades de fixação. No entanto, pode ser que alguns sábados tenhamos que 
+realizar algumas exposições teóricas.
 
 
 ---
@@ -225,24 +272,14 @@ name: atendimentos
 ## COMO OS ATENDIMENTOS SERÃO ORGANIZADOS?
 
 
----
-<div style="text-align: justify">
+```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para expressar que o objetivo é sério e o tema é da série the office', out.width = '50%'}
 
 
-## COMO OS ATENDIMENTOS SERÃO ORGANIZADOS?
+
+knitr::include_graphics('https://media.giphy.com/media/w89ak63KNl0nJl80ig/giphy.gif')
 
 
-- Realizaremos encontros semanais (aos sábados) já previamente agendados em cada um 
-dos capítulos da apostila. Todos estes encontros serão realizados a partir da plataforma **google meet**
-e os links também serão disponibilizados em cada capítulo;
-
-
-</br>
-
-
-- As reuniões iniciarão aos sábados às 10:10h (conforme nossas aulas). Cumpre ressaltar que eu estarei 
-disponível até o fim da aula (11:05h) desde que haja interação, isto é, se em um prazo de 15 minutos 
-ninguém entrar na reunião para interação, ela será automaticamente cancelada.
+```
 
 
 ---
@@ -252,18 +289,68 @@ ninguém entrar na reunião para interação, ela será automaticamente cancelad
 ## COMO OS ATENDIMENTOS SERÃO ORGANIZADOS?
 
 
-- Cada estudante poderá solicitar reuniões particulares, basta enviar um e-mail para o endereço 
-[**victor.dmv@unifei.edu.br**](victor.dmv@unifei.edu.br). 
-Mas acrescento, justificativas para a reunião particular deve ser adicionada no corpo do e-mail;
+- **ATENDIMENTO EM SALA**: 
+
+    - Como visto, no início de cada aula/semana dedicaremos um tempo para 
+    discussão de potenciais dúvidas teóricas ou mesmo de exercícios.
+
 
 
 </br>
 
+
+- **ATENDIMENTO PREVIAMENTE AGENDADO**:
+
+    - Caso o estudante queira tirar algumas dúvidas pessoalmente ele poderá 
+    utilizar o seguinte link: 
+    
+    - [**_https://calendly.com/profvictorvalerio/atendimentos_**](https://calendly.com/profvictorvalerio/atendimentos)
+    - 4 dias de antecedência;
+    
+    - Não precisa me pedir;
+    
+    - Não precisa me avisar.
+
+
+---
+<div style="text-align: justify">
+
+
+## SOBRE A COORDENAÇÃO
+
+
+- **ATENDIMENTO PREVIAMENTE AGENDADO SOBRE ASSUNTOS DA COORDENAÇÃO**:
+
+    - Caso o estudante queira tirar algumas dúvidas pessoalmente ele poderá 
+    utilizar o seguinte link: 
+    
+    - [**_https://calendly.com/profvictorvalerio/coordenadoradm_**](https://calendly.com/profvictorvalerio/coordenadoradm)
+    - 2 dias de antecedência;
+    
+    - Não precisa me pedir;
+    
+    - Não precisa me avisar.
+
+
+---
+<div style="text-align: justify">
+
+
+## COMO OS ATENDIMENTOS SERÃO ORGANIZADOS?
 
 - Há ainda mais um instrumento de interação, criei um grupo no whatsapp (acho o mais dinâmico de todos). 
 Por favor, ingresse no grupo! Basta clicar neste 
 [**link**](https://chat.whatsapp.com/K0ikt0cd8v8ATr28IQAYTk)! Obviamente, sua entrada é facultativa!
 
+
+```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para expressar que o objetivo é sério e o tema é da série the office', out.width = '50%'}
+
+
+
+knitr::include_graphics('https://media.giphy.com/media/dEdmW17JnZhiU/giphy.gif')
+
+
+```
 
 ---
 class: inverse, center, middle
@@ -271,6 +358,15 @@ name: cronograma
 
 
 ## QUAL O CRONOGRAMA E QUAIS OS CONTEÚDOS DA DISCIPLINA?
+
+```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para expressar que o objetivo é sério e o tema é da série the office', out.width = '50%'}
+
+
+
+knitr::include_graphics('https://media.giphy.com/media/FcCLjCQ3xY7ICVtfbB/giphy.gif')
+
+
+```
 
 
 ---
@@ -291,13 +387,8 @@ library(kableExtra)
 
 cronograma <- data.frame(
   
-  AULA = c(1, 2, 3, 4, 5, 6, 7, 8),
-  
-  DIA = c('28/04', 
-           
-           '05/05', '12/05', '19/05', '26/05', '02/06',
-           
-           '09/06', '16/06'),
+  SEMANA = c(1, 2, 3, 4, 5, 6, 7, 8),
+
   
   TEMAS = c('Apresentação da Disciplina', 
            
@@ -351,13 +442,7 @@ library(kableExtra)
 
 cronograma <- data.frame(
   
-  AULA = c(9, 10, 11, 12, 13, 14, 15, 16),
-  
-  DIA = c('23/06',
-           
-           '30/06', '07/07', '14/07', '21/07', '28/07',
-           
-           '04/08', '11/08'),
+  SEMANA = c(9, 10, 11, 12, 13, 14, 15, 16),
   
   CONTEÚDO = c('Taxa de Juros',
            
@@ -401,6 +486,16 @@ name: avaliacoes
 ## QUAL O CRONOGRAMA DAS AVALIAÇÕES?
 
 
+```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para expressar que o objetivo é sério e o tema é da série the office', out.width = '50%'}
+
+
+
+knitr::include_graphics('https://media.giphy.com/media/FcCLjCQ3xY7ICVtfbB/giphy.gif')
+
+
+```
+
+
 ---
 <div style="text-align: justify">
 
@@ -422,9 +517,10 @@ cronograma <- data.frame(
   
   CONTEÚDOS = c('Aulas 2 à 7', 'Aulas 9 à 15', 'Todas as aulas teóricas'),
   
-  REFERÊNCIA = c('Prova 1', 'Prova 2', 'Prova Substitutiva'),
+  REFERÊNCIA = c('Prova 1', 'Prova 2', 'Prova Substitutiva')
+)
   
-  DATA = c('16/06', '04/08', '11/08'))
+
 
 
 knitr::kable(cronograma, 
@@ -470,7 +566,7 @@ knitr::kable(cronograma,
 
 
 ---
-class: center, middle
+class: inverse, center, middle
 
 
 ```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para agradecer pela atenção e o tema é da série the office', out.width = '80%'}
