@@ -62,7 +62,7 @@ knitr::include_graphics('https://media.giphy.com/media/6R2mLi910HL4VXFwOG/giphy.
 [**Qual o objetivo da disciplina?**](#objetivo_disciplina)
 
 
-[**Como as aulas serão organizadas durante o RTE?**](#organizacao_aulas)
+[**Como as aulas serão organizadas?**](#organizacao_aulas)
 
 
 [**Como os atendimentos serão organizados?**](#atendimentos)
@@ -387,8 +387,10 @@ library(kableExtra)
 
 cronograma <- data.frame(
   
-  SEMANA = c(1, 2, 3, 4, 5, 6, 7, 8),
+  AULA = c(1, 2, 3, 4, 5, 6, 7, 8),
 
+  SEMANA = c('06/04 e 09/04','13/04 e 16/04','20/04 e 23/04','27/04 e 30/04',
+             '04/05 e 07/05','11/05 e 14/05','18/05 e 21/05','25/05 e 28/05'),
   
   TEMAS = c('Apresentação da Disciplina', 
            
@@ -413,7 +415,7 @@ knitr::kable(cronograma,
     
              format = 'html',
              
-             align = c('c', 'l', 'l')) %>%
+             align = c('c', 'c', 'c')) %>%
   
   kable_styling(bootstrap_options = 'striped')
   
@@ -442,7 +444,10 @@ library(kableExtra)
 
 cronograma <- data.frame(
   
-  SEMANA = c(9, 10, 11, 12, 13, 14, 15, 16),
+  AULA = c(9, 10, 11, 12, 13, 14, 15, 16),
+  
+  SEMANA = c('01/06 e 04/06','08/06 e 11/06','15/06 e 08/06','22/06 e 25/06',
+             '29/06 e 01/07','06/07 e 09/07','13/07 e 16/07','20/07 e 23/07'),
   
   CONTEÚDO = c('Taxa de Juros',
            
@@ -458,7 +463,7 @@ cronograma <- data.frame(
            
            'PROVA 2 (Aulas 9 à 15)', 
            
-           'PROVA SUBSTITUTIVA (Todas as aulas teóricas'))
+           'PROVA SUB (Todas as aulas)'))
 
 
 knitr::kable(cronograma, 
@@ -467,7 +472,7 @@ knitr::kable(cronograma,
     
              format = 'html',
              
-             align = c('c', 'l', 'l')) %>%
+             align = c('c', 'c', 'c')) %>%
   
   kable_styling(bootstrap_options = 'striped')
   
