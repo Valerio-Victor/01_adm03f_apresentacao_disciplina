@@ -5,13 +5,15 @@ author: 'Autor: Victor Valerio'
 date: 'Última atualização: `r format(Sys.Date(),"%d-%m-%Y")`'
 output:
   xaringan::moon_reader:
-    css: [xaringan-themer.css]
+    css: ['default', 'meutema.css']
     nature:
       highlightStyle: github
       highlightLines: true
       ratio: 16:9
       countIncrementalSlides: true
 ---
+
+
 
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
@@ -114,20 +116,14 @@ name: sobre_professor
 
 
 - **DOCÊNCIA**: Economia (ECN001), Engenharia Econômica (EPR502), 	
-Macroeconomia (ADM022), Matemática Financeira (ADM020), 
-Análise 	de 	Investimento com Risco (ADM013), 
-Metodologia Quantitativa em 	Administração (MPA033);
+Macroeconomia (ADM022), Análise 	de 	Investimento com Risco (ADM013), 
+Metodologia Quantitativa em Administração (MPA033);
 
 
-</br>
 
+- **PESQUISA**: Modelos de Análise de Eficiência e Produtividade, Análise de 
+Viabilidade Econômica, Energia 	Renovável, Ciência de Dados;
 
-- **PESQUISA**: Análise de Eficiência e Produtividade do Mercado de 	Crédito Nacional, Análise de 
-Eficiência e Produtividade de Projetos de 	Energia 	Renovável, Viabilidade Econômica de Projetos 
-de Energia 	Renovável, Ciência de Dados;
-
-
-</br>
 
 
 - **INSTITUCIONAL**: Representante do Estado de Minas Gerais na Ordem dos Economistas do 
@@ -224,12 +220,7 @@ knitr::include_graphics('https://media.giphy.com/media/o8LYOPJKPsYhmNgiuD/giphy.
 ## COMO AS AULAS SERÃO ORGANIZADAS?
 
 
-- As aulas serão **estritamente expositivas** e **presenciais**, uma vez que, o 
-número de estudantes matriculados é inferior à capacidade máxima exigida pelo 
-protocolo de biossegurança da UNIFEI;
-
-
-</br>
+- As aulas serão **estritamente expositivas** e **presenciais**;
 
 
 - Assim, a dinâmica ocorrerá da seguinte maneira:
@@ -256,9 +247,6 @@ protocolo de biossegurança da UNIFEI;
   - **Slide da aula (o mesmo utilizado na reunião)**;
 
 
-</br>
-
-
 - Inicialmente, os horários de sábado serão utilizados para realização de 
 atividades de fixação. No entanto, pode ser que alguns sábados tenhamos que 
 realizar algumas exposições teóricas.
@@ -274,10 +262,7 @@ name: atendimentos
 
 ```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para expressar que o objetivo é sério e o tema é da série the office', out.width = '50%'}
 
-
-
 knitr::include_graphics('https://media.giphy.com/media/w89ak63KNl0nJl80ig/giphy.gif')
-
 
 ```
 
@@ -295,21 +280,12 @@ knitr::include_graphics('https://media.giphy.com/media/w89ak63KNl0nJl80ig/giphy.
     discussão de potenciais dúvidas teóricas ou mesmo de exercícios.
 
 
-
-</br>
-
-
 - **ATENDIMENTO PREVIAMENTE AGENDADO**:
 
-    - Caso o estudante queira tirar algumas dúvidas pessoalmente ele poderá 
-    utilizar o seguinte link: 
+    - Para atendimento pessoal basta utilizar o seguinte link: 
     
     - [**_https://calendly.com/profvictorvalerio/atendimentos_**](https://calendly.com/profvictorvalerio/atendimentos)
-    - 4 dias de antecedência;
-    
-    - Não precisa me pedir;
-    
-    - Não precisa me avisar.
+    - O agendamento deverá ocorrer com 4 dias de antecedência, não é necessário solicitar e não é necessário avisar.
 
 
 ---
@@ -321,15 +297,11 @@ knitr::include_graphics('https://media.giphy.com/media/w89ak63KNl0nJl80ig/giphy.
 
 - **ATENDIMENTO PREVIAMENTE AGENDADO SOBRE ASSUNTOS DA COORDENAÇÃO**:
 
-    - Caso o estudante queira tirar algumas dúvidas pessoalmente ele poderá 
-    utilizar o seguinte link: 
+    - Para atendimento pessoal basta utilizar o seguinte link: 
     
     - [**_https://calendly.com/profvictorvalerio/coordenadoradm_**](https://calendly.com/profvictorvalerio/coordenadoradm)
-    - 2 dias de antecedência;
     
-    - Não precisa me pedir;
-    
-    - Não precisa me avisar.
+    - O agendamento deverá ocorrer com 2 dias de antecedência, não é necessário solicitar e não é necessário avisar.
 
 
 ---
@@ -373,7 +345,7 @@ knitr::include_graphics('https://media.giphy.com/media/FcCLjCQ3xY7ICVtfbB/giphy.
 <div style="text-align: justify">
 
 
-## QUAL O CRONOGRAMA E QUAIS OS CONTEÚDOS DA DISCIPLINA?
+## CRONOGRAMA DA DISCIPLINA
 
 
 ```{r , results = 'asis', echo = F, warning = F, message = F, error = F, fig.align ='center', out.width = '100%'}
@@ -394,17 +366,17 @@ cronograma <- data.frame(
   
   TEMAS = c('Apresentação da Disciplina', 
            
-           'Fluxo Circular da Renda', 
+           'Identidades Macroeconômicas', 
            
-           'Agregados Macroeconômicos', 
+           'Fluxo Circular da Renda - Parte II', 
+           
+           'Agregados Macroeconômicos',
            
            'Nível de Atividade',
            
            'Mercado de Trabalho',
            
-           'Taxa de Inflação',
-           
-           'Consolidação dos Temas', 
+           'Taxa de Inflação', 
            
            'PROVA 1 (Aulas 2 à 7)'))
 
@@ -430,7 +402,7 @@ knitr::kable(cronograma,
 <div style="text-align: justify">
 
 
-## QUAL O CRONOGRAMA E QUAIS OS CONTEÚDOS DA DISCIPLINA?
+## CRONOGRAMA DA DISCIPLINA
 
 
 ```{r , results = 'asis', echo = F, warning = F, message = F, error = F, fig.align ='center', out.width = '100%'}
@@ -521,6 +493,8 @@ cronograma <- data.frame(
   
   
   CONTEÚDOS = c('Aulas 2 à 7', 'Aulas 9 à 15', 'Todas as aulas teóricas'),
+  
+  SEMANA = c('25/05 e 28/05', '13/07 e 16/07','20/07 e 23/07'),
   
   REFERÊNCIA = c('Prova 1', 'Prova 2', 'Prova Substitutiva')
 )
