@@ -358,23 +358,19 @@ library(kableExtra)
 
 
 cronograma <- data.frame(
-  
-  AULA = c(1, 2, 3, 4, 5, 6, 7, 8),
 
-  SEMANA = c('06/04 e 09/04','13/04 e 16/04','20/04 e 23/04','27/04 e 30/04',
-             '04/05 e 07/05','11/05 e 14/05','18/05 e 21/05','25/05 e 28/05'),
+  SEMANA = c('06/04 e 09/04','13/04 e 16/04','20/04 e 23/04','27/04 e 07/05',
+             '11/05 e 14/05','18/05 e 21/05','25/05 e 28/05'),
   
   TEMAS = c('Apresentação da Disciplina', 
            
            'Identidades Macroeconômicas', 
            
-           'Fluxo Circular da Renda - Parte II', 
+           'Fluxo Circular da Renda', 
            
            'Agregados Macroeconômicos',
            
-           'Nível de Atividade',
-           
-           'Mercado de Trabalho',
+           'Nível de Atividade e Mercado de Trabalho',
            
            'Taxa de Inflação', 
            
@@ -415,8 +411,7 @@ library(kableExtra)
 
 
 cronograma <- data.frame(
-  
-  AULA = c(9, 10, 11, 12, 13, 14, 15, 16),
+
   
   SEMANA = c('01/06 e 04/06','08/06 e 11/06','15/06 e 08/06','22/06 e 25/06',
              '29/06 e 01/07','06/07 e 09/07','13/07 e 16/07','20/07 e 23/07'),
