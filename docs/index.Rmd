@@ -13,93 +13,60 @@ output:
       countIncrementalSlides: true
 ---
 
-
-
-
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
-
-
 library(xaringanthemer)
-
-
 style_mono_light(base_color = '#23395b')
-
-
 ```
-
 
 ```{r xaringan-scribble, echo=FALSE}
-
-
 xaringanExtra::use_scribble()
-
 xaringanExtra::use_search(show_icon = TRUE)
-
-
 ```
 
-class: inverse, center, middle 
+class: inverse, center, middle
 
-## RESPEITE O PROTOCOLO DE BIOSSEGURANÇA
-
-
-```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para expressar que o objetivo é sério e o tema é da série the office', out.width = '50%'}
-
-
-
-knitr::include_graphics('https://media.giphy.com/media/6R2mLi910HL4VXFwOG/giphy.gif')
-
-
+# COMEÇOU A DISCIPLINA DE MACROECONOMIA
+```{r, echo = F, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/citBl9yPwnUOs/giphy.gif')
 ```
 
 ---
-
-
 ## TÓPICOS ABORDADOS
 
+- [**QUEM SÃO OS PARTICIPANTES?**](#sobre_participantes)
 
-[**Quem é o professor?**](#sobre_professor)
+- [**QUAL O OBJETIVO DA DISCIPLINA?**](#objetivo_disciplina)
 
+- [**COMO AS AULAS SERÃO ORGANIZADAS?**](#organizacao_aulas)
 
-[**Qual o objetivo da disciplina?**](#objetivo_disciplina)
+- [**COMO OS ATENDIMENTOS SERÃO ORGANIZADOS?**](#atendimentos)
 
-
-[**Como as aulas serão organizadas?**](#organizacao_aulas)
-
-
-[**Como os atendimentos serão organizados?**](#atendimentos)
-
-
-[**Qual o cronograma e quais os conteúdos da disciplina?**](#cronograma)
-
-
-[**Qual o cronograma das avaliações?**](#avaliacoes)
-
+- [**QUAL O CRONOGRAMA DA DISCIPLINA?**](#cronograma)
 
 ---
 class: inverse, center, middle 
-name: sobre_professor
+name: sobre_participantes
+## QUEM SÃO OS PARTICIPANTES?
 
-
-## QUEM É O PROFESSOR?
-
+```{r, echo = F, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/26gBjgcJMUqShHs4w/giphy.gif')
+```
 
 ---
 <div style="text-align: justify">
-
-
 ## PRINCIPAIS INFORMAÇÕES
+- **Nome:** *Victor Valerio*;
+- **E-mail:** *victor.dmv@unifei.edu.br*;
+- **Tel:** *+55 (35) 3629-1151*
+- **Sala:** *B.3216 (1º Piso IEPG);*
+- **Grupo de WhatsApp:** 
+[_INGRESSE NO GRUPO CLICANDO AQUI_](https://chat.whatsapp.com/K0ikt0cd8v8ATr28IQAYTk)
 
-
-- **Nome:** Victor Valerio;
-
-- **Email:** [victor.dmv@unifei.edu.br](victor.dmv@unifei.edu.br);
-
-- **Grupo wpp:** [_clique aqui para ingressar_](https://chat.whatsapp.com/K0ikt0cd8v8ATr28IQAYTk).
-
-
+---
+<div style="text-align: justify">
 ## FORMAÇÃO
-
 
 - **GRADUAÇÃO**: Ciências Econômicas (UNESP);
 
@@ -107,121 +74,99 @@ name: sobre_professor
 
 - **DOUTORADO**: Engenharia de Produção (UNIFEI)
 
-
 ---
 <div style="text-align: justify">
-
-
 ## ÁREAS DE ATUAÇÃO
 
-
-- **DOCÊNCIA**: Economia (ECN001), Engenharia Econômica (EPR502), 	
+- **DOCÊNCIA**: Economia (IEPG20), Engenharia Econômica (EPR502), 	
 Macroeconomia (ADM022), Análise 	de 	Investimento com Risco (ADM013), 
 Metodologia Quantitativa em Administração (MPA033);
-
-
 
 - **PESQUISA**: Modelos de Análise de Eficiência e Produtividade, Análise de 
 Viabilidade Econômica, Energia 	Renovável, Ciência de Dados;
 
-
-
 - **INSTITUCIONAL**: Representante do Estado de Minas Gerais na Ordem dos Economistas do 
 Brasil (OEB); Coordenador do Núcleo de Excelência em 	Sistemas Fotovoltaicos 
 (NE-SFV); Pesquisador Assistente no Centro de 	Hidrogênio Verde (CHV2); 
-Coordenador de Graduação em 	Administração na UNIFEI.
+Coordenador de Graduação de Curso (Administração-UNIFEI).
 
 ---
-class: center, middle 
+class: inverse, center, middle  
+## PAI DE PET
 
-```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para agradecer pela atenção e o tema é da série the office', out.width = '80%'}
-
-
-
-knitr::include_graphics('filomena.png')
-
-
+```{r, echo = F, fig.align = 'center', out.width = '30%'}
+knitr::include_graphics('familia.jpeg')
 ```
-
 
 ---
-class: center, middle
+class: inverse, center, middle 
+## MAIOR DO PAÍS
 
-```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para agradecer pela atenção e o tema é da série the office', out.width = '80%'}
-
-
-
-knitr::include_graphics('palmeiras.png')
-
-
+```{r, echo = F, fig.align = 'center', out.width = '40%'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/ZeA9GkdqTLLm6I2Hab/giphy.gif')
 ```
 
+---
+class: inverse, center, middle 
+## CAMPEÃO DA LIGA SULMINEIRA DE SURF
+
+```{r, echo = F, fig.align = 'center', out.width = '40%'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/BM7rEaVmOUVIG2yxbj/giphy.gif')
+```
+
+---
+<div style="text-align: justify">
+## PERGUNTAS A SEREM RESPONDIDAS POR CADA ESTUDANTE
+
+- Qual o seu nome?
+- Qual área de atuação profissional te interessa?
+- Você se matricularia se não fosse obrigatória?
+- Qual seu hobby? (esporte, filmes/séries, dormir, dançar, fofocar...)
+- Qual seu signo?
+- Conte uma curiosidade sobre você.
+- Conte uma mentira sobre você.
 
 ---
 class: inverse, center, middle 
 name: objetivo_disciplina
-
-
 ## QUAL O OBJETIVO DA DISCIPLINA?
 
-
-```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para expressar que o objetivo é sério e o tema é da série the office', out.width = '50%'}
-
-
-
-knitr::include_graphics('https://media.giphy.com/media/BpGWitbFZflfSUYuZ9/giphy.gif')
-
-
+```{r, echo = F, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/xT5LMsv6xxHIxliEOA/giphy.gif')
 ```
-
 
 ---
 <div style="text-align: justify">
-
-
 ## QUAL O OBJETIVO DA DISCIPLINA?
-
-
-</br>
-
 
 - O objetivo geral da disciplina de Macroeconomia consiste em introduzir as principais **formulações 
 teóricas** necessárias ao entendimendo do **funcionamento da economia de um país**.
 
-
 </br>
 
-
 - **Objetivo específico:** Sempre que possível, as **associações práticas** possíveis 
-para o nível de aprofundamento alcançado serão discutidas.
+para o nível de aprofundamento alcançado serão discutidas (Para estudo da realidade
+brasileira será adotada uma aplicação web desenvolvida para a disciplina).
 
 ---
 class: inverse, center, middle
 name: organizacao_aulas
 
+# COMO AS AULAS SERÃO ORGANIZADAS?
 
-## COMO AS AULAS SERÃO ORGANIZADAS?
-
-
-```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para expressar que o objetivo é sério e o tema é da série the office', out.width = '50%'}
-
-
-
-knitr::include_graphics('https://media.giphy.com/media/o8LYOPJKPsYhmNgiuD/giphy.gif')
-
-
+```{r, echo = F, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/fBEDuhnVCiP16/giphy.gif')
 ```
-
 
 ---
 <div style="text-align: justify">
-
-
 ## COMO AS AULAS SERÃO ORGANIZADAS?
 
-
 - As aulas serão **estritamente expositivas** e **presenciais**;
-
 
 - Assim, a dinâmica ocorrerá da seguinte maneira:
 
@@ -233,10 +178,7 @@ knitr::include_graphics('https://media.giphy.com/media/o8LYOPJKPsYhmNgiuD/giphy.
 
 ---
 <div style="text-align: justify">
-
-
 ## COMO AS AULAS SERÃO ORGANIZADAS?
-
 
 - Em cada semana de aula será disponibilizado no SIGAA:
 
@@ -244,35 +186,21 @@ knitr::include_graphics('https://media.giphy.com/media/o8LYOPJKPsYhmNgiuD/giphy.
 
   - **Breve exposição sobre os principais conceitos trabalhados na aula**;
 
-  - **Slide da aula (o mesmo utilizado na reunião)**;
-
-
-- Inicialmente, os horários de sábado serão utilizados para realização de 
-atividades de fixação. No entanto, pode ser que alguns sábados tenhamos que 
-realizar algumas exposições teóricas.
-
+  - **Slide da aula (o mesmo utilizado na reunião)**.
 
 ---
 class: inverse, center, middle
 name: atendimentos
+# COMO OS ATENDIMENTOS SERÃO ORGANIZADOS?
 
-
-## COMO OS ATENDIMENTOS SERÃO ORGANIZADOS?
-
-
-```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para expressar que o objetivo é sério e o tema é da série the office', out.width = '50%'}
-
-knitr::include_graphics('https://media.giphy.com/media/w89ak63KNl0nJl80ig/giphy.gif')
-
+```{r, echo = F, fig.align = 'center', fig.alt= 'Gif da série the office para apresentar a organização dos atendimentos ', out.width = '50%'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/vEJGsXtEE1Sc8/giphy-downsized-large.gif')
 ```
-
 
 ---
 <div style="text-align: justify">
-
-
 ## COMO OS ATENDIMENTOS SERÃO ORGANIZADOS?
-
 
 - **ATENDIMENTO EM SALA**: 
 
@@ -284,30 +212,12 @@ knitr::include_graphics('https://media.giphy.com/media/w89ak63KNl0nJl80ig/giphy.
 
     - Para atendimento pessoal basta utilizar o seguinte link: 
     
-    - [**_https://calendly.com/profvictorvalerio/atendimentos_**](https://calendly.com/profvictorvalerio/atendimentos)
+    - [**https://valerio-victor.github.io/agenda**](https://valerio-victor.github.io/agenda)
+    
     - O agendamento deverá ocorrer com 4 dias de antecedência, não é necessário solicitar e não é necessário avisar.
 
-
 ---
 <div style="text-align: justify">
-
-
-## SOBRE A COORDENAÇÃO
-
-
-- **ATENDIMENTO PREVIAMENTE AGENDADO SOBRE ASSUNTOS DA COORDENAÇÃO**:
-
-    - Para atendimento pessoal basta utilizar o seguinte link: 
-    
-    - [**_https://calendly.com/profvictorvalerio/coordenadoradm_**](https://calendly.com/profvictorvalerio/coordenadoradm)
-    
-    - O agendamento deverá ocorrer com 2 dias de antecedência, não é necessário solicitar e não é necessário avisar.
-
-
----
-<div style="text-align: justify">
-
-
 ## COMO OS ATENDIMENTOS SERÃO ORGANIZADOS?
 
 - Há ainda mais um instrumento de interação, criei um grupo no whatsapp (acho o mais dinâmico de todos). 
@@ -315,240 +225,91 @@ Por favor, ingresse no grupo! Basta clicar neste
 [**link**](https://chat.whatsapp.com/K0ikt0cd8v8ATr28IQAYTk)! Obviamente, sua entrada é facultativa!
 
 
-```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para expressar que o objetivo é sério e o tema é da série the office', out.width = '50%'}
-
-
-
-knitr::include_graphics('https://media.giphy.com/media/dEdmW17JnZhiU/giphy.gif')
-
-
+```{r, echo = F, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/l2JebaQTHOUAIarQc/giphy.gif')
 ```
 
 ---
 class: inverse, center, middle
 name: cronograma
+# QUAL O CRONOGRAMA DA DISCIPLINA?
 
+```{r, echo = F, fig.align = 'center', fig.alt= 'Gif da série the office para apresentar a organização dos atendimentos ', out.width = '50%'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/l2JdZgzUpaNi2oxcQ/giphy.gif')
+```
 
-## QUAL O CRONOGRAMA E QUAIS OS CONTEÚDOS DA DISCIPLINA?
+---
+## QUAIS OS CONTEÚDOS?
+```{r , results = 'asis', echo = F, warning = F, message = F, error = F, fig.align ='center', out.width = '100%'}
+library(magrittr)
+library(kableExtra)
 
-```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para expressar que o objetivo é sério e o tema é da série the office', out.width = '50%'}
+cronograma <- data.frame(
+  AULA = c(1, 2, 3, 4, 5, 6, 7, 8),
+  DIA = c('17/03', '24/03', '31/03', '14/04', '28/04', '05/05', '19/05', '26/05'),
+  TEMAS = c('Apresentação da Disciplina',
+           'Taxa de Inflação - Conceitos', 
+           'Taxa de Inflação - Estudo de Caso', 
+           'Taxa de Câmbio - Conceitos',
+           'Taxa de Câmbio - Estudo de Caso',
+           'Taxa de Juros - Conceitos',
+           'Taxa de Juros - Estudo de Caso', 
+           'Prova 01'))
 
-
-
-knitr::include_graphics('https://media.giphy.com/media/FcCLjCQ3xY7ICVtfbB/giphy.gif')
-
+knitr::kable(cronograma, 
+             escape = FALSE,
+             format = 'html',
+             align = c('c', 'l', 'l')) %>%
+  
+  kable_styling(bootstrap_options = 'striped')
 
 ```
 
-
 ---
-<div style="text-align: justify">
-
-
-## CRONOGRAMA DA DISCIPLINA
-
-
+## QUAIS OS CONTEÚDOS?
 ```{r , results = 'asis', echo = F, warning = F, message = F, error = F, fig.align ='center', out.width = '100%'}
-
-
 library(magrittr)
-
-
 library(kableExtra)
 
-
 cronograma <- data.frame(
-
-  SEMANA = c('06/04 e 09/04','13/04 e 16/04','20/04 e 23/04','27/04 e 07/05',
-             '11/05 e 14/05','18/05 e 21/05','25/05 e 28/05'),
-  
-  TEMAS = c('Apresentação da Disciplina', 
-           
-           'Identidades Macroeconômicas', 
-           
+  AULA = c(9, 10, 11, 12, 13, 14, 15),
+  DIA = c('02/06', '16/06', '23/06', '30/06', '07/07', '14/07', '21/07'),
+  TEMAS = c('Identidades Macroeconômicas', 
            'Fluxo Circular da Renda', 
-           
-           'Agregados Macroeconômicos',
-           
-           'Nível de Atividade e Mercado de Trabalho',
-           
-           'Taxa de Inflação', 
-           
-           'PROVA 1 (Aulas 2 à 7)'))
-
+           'Agregados Macroeconômicos - Conceitos',
+           'Agregados Macroeconômicos - Estudo de Caso', 
+           'Nível de Atividade',
+           'Mercado de Trabalho', 
+           'Prova 02'))
 
 knitr::kable(cronograma, 
-             
              escape = FALSE,
-    
              format = 'html',
-             
-             align = c('c', 'c', 'c')) %>%
+             align = c('c', 'l', 'l')) %>%
   
   kable_styling(bootstrap_options = 'striped')
-  
-
-
-
 
 ```
 
-
 ---
-<div style="text-align: justify">
+## COMPOSIÇÃO DAS NOTAS
 
+- Equação Nota 1: $Nota_1  = 0,8. Trabalho_{parte 1} + 0,2.Questionários_{parte 1}$
 
-## CRONOGRAMA DA DISCIPLINA
-
-
-```{r , results = 'asis', echo = F, warning = F, message = F, error = F, fig.align ='center', out.width = '100%'}
-
-
-library(magrittr)
-
-
-library(kableExtra)
-
-
-cronograma <- data.frame(
-
-  
-  SEMANA = c('01/06 e 04/06','08/06 e 11/06','15/06 e 08/06','22/06 e 25/06',
-             '29/06 e 01/07','06/07 e 09/07','13/07 e 16/07','20/07 e 23/07'),
-  
-  CONTEÚDO = c('Taxa de Juros',
-           
-           'Mercado de Crédito', 
-           
-           'Taxa de Câmbio', 
-           
-           'Política Fiscal', 
-           
-           'Política Monetária', 
-           
-           'Consolidação dos Temas',
-           
-           'PROVA 2 (Aulas 9 à 15)', 
-           
-           'PROVA SUB (Todas as aulas)'))
-
-
-knitr::kable(cronograma, 
-             
-             escape = FALSE,
-    
-             format = 'html',
-             
-             align = c('c', 'c', 'c')) %>%
-  
-  kable_styling(bootstrap_options = 'striped')
-  
-
-
-
-
-```
-
-
----
-class: inverse, center, middle
-name: avaliacoes
-
-
-## QUAL O CRONOGRAMA DAS AVALIAÇÕES?
-
-
-```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para expressar que o objetivo é sério e o tema é da série the office', out.width = '50%'}
-
-
-
-knitr::include_graphics('https://media.giphy.com/media/FcCLjCQ3xY7ICVtfbB/giphy.gif')
-
-
-```
-
-
----
-<div style="text-align: justify">
-
-
-## QUAL O CRONOGRAMA DAS AVALIAÇÕES?
-
-
-```{r , results = 'asis', echo = F, warning = F, message = F, error = F, fig.align ='center', out.width = '100%'}
-
-
-library(magrittr)
-
-
-library(kableExtra)
-
-
-cronograma <- data.frame(
-  
-  
-  CONTEÚDOS = c('Aulas 2 à 7', 'Aulas 9 à 15', 'Todas as aulas teóricas'),
-  
-  SEMANA = c('25/05 e 28/05', '13/07 e 16/07','20/07 e 23/07'),
-  
-  REFERÊNCIA = c('Prova 1', 'Prova 2', 'Prova Substitutiva')
-)
-  
-
-
-
-knitr::kable(cronograma, 
-             
-             escape = FALSE,
-    
-             format = 'html',
-             
-             align = c('l', 'c', 'c')) %>%
-  
-  kable_styling(bootstrap_options = 'striped')
-  
-
-
-
-
-```
-
-
----
-<div style="text-align: justify">
-
-
-## QUAL A COMPOSIÇÃO DAS NOTAS?
-
-
-</br>
-
-
-- Equação Nota 1: $Nota_1  = 0,8 Prova_{parte 1} + 0,2 Questionários_{parte 1}$
-
-
-</br>
-
-
-- Equação Nota 2: $Nota_2  = 0,8 Prova_{parte 2} + 0,2 Questionários_{parte 2}$
-
-
-</br>
-
+- Equação Nota 2: $Nota_2  = 0,8 .Trabalho_{parte 2} + 0,2.Questionários_{parte 2}$
 
 - Equação Nota Final: $Nota_{Final}  = (Nota_1 + Nota_2)/2$
 
-
 ---
 class: inverse, center, middle
 
+# MUITO OBRIGADO!
 
-```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para agradecer pela atenção e o tema é da série the office', out.width = '80%'}
+```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para agradecer pela atenção e o tema é da série the office', out.width = '50%'}
 
-
-
-knitr::include_graphics('https://media.giphy.com/media/n4oKYFlAcv2AU/giphy.gif')
-
+knitr::include_graphics(
+  'https://media.giphy.com/media/3orifgJJHKP0WZxmzC/giphy.gif')
 
 ```
-
